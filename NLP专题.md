@@ -4,6 +4,10 @@
 
 ## 关键字提取
 
+## 文本相似度计算
+
+## 主题模型
+
 ## Data augmentation
 
 ### smote
@@ -20,7 +24,13 @@ $\text{TF}(t,d)$为单词t在文档d中出现的频率，$\text{IDF(t)}$是逆�
 $$
 \text{IDF(t)}=log\dfrac{文章总数}{包含单词t的文章总数+1}
 $$
-## Word Embedding
+## Word2vec
+
+## Glove
+
+## Fasttext
+
+## TextCNN
 
 ## RNN
 
@@ -40,7 +50,7 @@ $$
 
 ## LSTM
 
-![clr](F:\kaggleQuora\LSTM.jpg)
+![clr](LSTM.jpg)
 
 
 
@@ -48,7 +58,7 @@ LSTM有三个门，从左到右分别是遗忘门、输入门、输出门。
 
 更新公式：
 
-![clr](F:\kaggleQuora\lstm_gongshi.jpg)
+![clr](lstm_gongshi.jpg)
 
 ## GRU
 
@@ -60,7 +70,9 @@ LSTM有三个门，从左到右分别是遗忘门、输入门、输出门。
 
 ## Sequence-to-Sequence
 
+## EM算法
 
+## CRF
 
 ## Attention机制
 
